@@ -1,0 +1,83 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td{background: transparent;border: 0;margin: 0;padding: 0;vertical-align: baseline}
+
+a{text-decoration:none}
+.oc{display:none}
+
+
+.FR{float:right}
+.FL{float:left}
+
+#idiomas{background:transparent;float:left;width:962px;height:51px}
+        #idiomas ul{float:right;text-decoration:none;padding-top:14px}
+		#idiomas li{float:left;display:inline;width:36px;height:25px;padding-left:10px;text-align:center}
+		#idiomas a.On{background:url(../img/bocadillo.png) no-repeat;padding:6px 11px}
+
+body{margin:0 20px; padding:0;font-family:Helvetica;font-size:12px;background:url(../img/fondo.jpg)}
+
+
+.lightbox { left: -999em; position: absolute; }
+			.lightbox { left: -999em; position: absolute; }
+			.lightbox:target { bottom: 0; left: 0; right: 0; top: 0; position: absolute; }
+			.lightbox:target .close a { background: rgba(0, 0, 0, 0.75); bottom: 0; left: 0; right: 0; top: 0; position: absolute; z-index: 1; }
+			.close span { color: #FFFFFF; font-size: 2em; text-indent: 0; position: absolute; right: 0.5em; top: 0.5em; }
+			.close {text-indent: -999em;}
+			.lightbox:target div {position: absolute; left: 50%; top: 50%; z-index: 99; }
+			.w60p { margin-left: -30%; width: 60%; } .w300 { margin-left: -150px; width: 300px; } .w640 { margin-left: -320px; width: 640px; }
+			.h60 { height: 60px; margin-top: -30px; } .h400 { height: 400px; margin-top: -200px; } .h386 { height: 386px; margin-top: -193px; }
+			.scroll { overflow-y: scroll; padding: 0 1em; }
+			.boxfocus { bottom: 0; left: 0; right: 0; top: 0; position: absolute; }
+			.boxfocus div {	background: #FFFFFF; position: absolute; left: 50%; top: 50%; z-index: 99; }
+			.boxfocus .close a { background-image: url('trans.png'); bottom: 0; left: 0; right: 0; top: 0; position: absolute; z-index: 1; }
+			.flotante1{width:265px;height:297px;color:#939393;font-size:12px;padding:23px 23px 23px 133px;background:#fff url(../img/reloj.jpg) 23px 23px no-repeat}
+			.flotante1 h1{font-size:18px !important;font-family:Arial !important;color:#0087cb !important;padding-bottom:10px}
+			.flotante1 p{padding-bottom:20px}
+			.flotante1 span{color:#0087cb;text-decoration:none}
+
+#total{width:962px;padding:0;margin:auto}
+
+#cuerpo{background:url(../img/cabecera.png) no-repeat;float:left;width:962px}
+	#contenido{background:url(../img/cuerpo.png) repeat-y;padding:18px;margin-top:8px;width:926px;float:left}
+	#cabecera{float:left;width:926px}
+	#iphone{float:left;width:390px;text-align:center}
+		 #iphone ul{list-style:none}
+		 #iphone li{padding-bottom:58px}
+
+#cajas{float:left;width:536px}
+		#cajas ul{list-style:none;width:506px;padding-right:30px;float:left}
+			#cajas li{width:220px;padding-top:60px;text-align:center;margin-bottom:50px}
+			#cajas li div.margen{border-right:1px solid #d3d3d3;border-left:1px solid #d3d3d3;padding:0 10px;height:110px}
+			#cajas li.cajauno{background:url(../img/cajauno.jpg) no-repeat}
+			#cajas li.cajados{background:url(../img/cajados.jpg) no-repeat}
+			#cajas li.cajatres{background:url(../img/cajatres.jpg) no-repeat}
+			#cajas li.cajacuatro{background:url(../img/cajacuatro.jpg) no-repeat}
+			#cajas li.cajacinco{background:url(../img/cajacinco.jpg) no-repeat}
+			#cajas li.cajaseis{background:url(../img/cajaseis.jpg) no-repeat}
+			
+			#cajas p.boton{background:url(../img/bajoboton.png) no-repeat;text-align:right;padding:5px 20px 10px 0}
+				#cajas p.boton a{color:#fff;font-weight:bold}
+			#cajas p.titulo{color:#3088c8;font-weight:bold;font-size:14px;text-transform:uppercase;padding-top:10px}
+			#cajas p{color:#868787}
+				#cajas p span{color:#20c3f6;font-weight:bold}
+
+#boletin{float:left;width:290px;text-align:left;margin:0 50px}
+			#boletin p.titbole, #dice p.titbole{color:#4f728d;font-weight:bold;font-size:16px;font_family:Helvetica}
+				#boletin p{font-size:13px;color:#868787;padding-bottom:10px}
+				#boletin input{background:url(../img/cajaformulario.jpg) no-repeat;width:219px;height:30px;font-size:13px;color:#868787;border:0;padding:1px 4px;margin-bottom:5px}
+				#boletin input.botenv{background:url(../img/boton.jpg) no-repeat;width:auto;height:auto;color:fff;font-size:12px;padding:4px 8px}
+
+#dice{float:left;width:536px;text-align:left}
+				#dice div.chat{float:left;background:url(../img/bocadillo.jpg) no-repeat;width:502px;height:62px;font-size:12px;color:#6c7881;margin:10px 0}
+				#dice div.chat p{padding:10px}
+				#dice div.chat span{color:#537690;border-bottom:1px dotted #537690}
+				
+				ul.quien{float:left;width:472px;list-style:none;padding-left:30px}
+					ul.quien li{float:left}
+					ul.quien li.nombre span{color:#99a0a5;font-size:11px}
+					ul.quien li.redes{float:right;margin-top:-7px}
+					ul.quien li.redes img{padding-left:10px}
+
+
+#pie{background:url(../img/pie.png) no-repeat;float:left;width:962px;padding-top:52px;text-align:center;padding-bottom:20px}
+	#pie p{color:#fff;font-size:13px;font-weight:normal;padding:10px 62px;width:837px}
+	#pie a{color:#fff;padding:0 5px}
+	#pie p.fin{background:url(../img/linea.jpg) top center no-repeat}
